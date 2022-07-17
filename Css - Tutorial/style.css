@@ -1,0 +1,33 @@
+#div{
+    height:100px;
+    width:100px;
+    position: absolute;
+    top:20%;
+    left:20%;
+    background-color: aquamarine;
+    /*transform:scale(1.5 , 0.4);*/
+    transition: 0.8s ease-in-out;
+}
+#div:hover{
+    height:400px;
+    width:400px;
+    offset-rotate: 84deg;
+    border-radius: 400px;
+
+}
+
+#div3{
+    height:100px;
+    width:100px;
+    position: absolute;
+    transform:translate(220px , 220px);
+    top:20%;
+    left:20%;
+    background-color: rgb(144, 127, 255);
+    /*transform:scale(1.5 , 0.4);*/
+    transition: 0.8s steps(2 , end);
+}
+#div3:hover{
+    transform:scale(1.5) translate(500px) rotate(45deg);
+}
+    
