@@ -1,0 +1,42 @@
+/*a:link ,a:visited {
+	background-color: red;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+table , th , td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	border-radius: 8px;
+}
+tr:nth-child(even) {
+	background-color: #D6EEEE;
+}
+tr:hover {
+	background-color: Tomato;
+}
+*/
+
+body {
+	background-color: rgba(256,55,12,0.2);
+}
+
+p {
+	font-size: 19px;
+	font-family: cursive;
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
